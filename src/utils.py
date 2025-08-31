@@ -142,7 +142,11 @@ def train(X, y, train_ratio):
     from sklearn.model_selection import train_test_split
 
     test_ratio = 1-train_ratio
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_ratio, random_state=36)
+    # Handle edge case where train_ratio = 1.0 (test_ratio = 0.0)
+    if test_ratio == 0.0:
+        X_train, X_test, y_train, y_test = X, X, y, y
+    else:
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_ratio, random_state=36)
 
     """
     Classification
