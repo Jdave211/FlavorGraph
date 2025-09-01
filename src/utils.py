@@ -18,8 +18,14 @@ def graph_reader(input_nodes, input_edges):
 
     print("Nodes Loaded...%s..." % format(input_nodes))
     df_nodes = pd.read_csv(input_nodes)
+    # Prefer cleaned_name if present (from cleaning pipeline), fallback to name
+    use_cleaned = 'cleaned_name' in df_nodes.columns
     for index, row in tqdm(df_nodes.iterrows(), total=len(df_nodes)):
-        node_id, name, _id, node_type, is_hub = row.values.tolist()
+        node_id = row['node_id'] if 'node_id' in row else row.iloc[0]
+        name = row['cleaned_name'] if use_cleaned and pd.notnull(row.get('cleaned_name', None)) else row['name']
+        _id = row['id'] if 'id' in row else None
+        node_type = row['node_type'] if 'node_type' in row else None
+        is_hub = row['is_hub'] if 'is_hub' in row else None
         graph.add_node(node_id, name=name, id=_id, type=node_type, is_hub=is_hub)
         if node_type == 'ingredient':
             graph_ingr_only.add_node(node_id, name=name, id=_id, type=node_type, is_hub=is_hub)
