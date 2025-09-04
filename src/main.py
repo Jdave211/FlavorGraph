@@ -25,7 +25,6 @@ def main():
     """
     graph, graph_ingr_only = graph_reader(args.input_nodes, args.input_edges)
 
-
     """
     2. Metapath2vec with MetaPathWalker - Ingredient-Ingredient / Ingredient-Food-like Compound / Ingredient-Drug-like Compound
     """
