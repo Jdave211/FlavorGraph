@@ -1,0 +1,141 @@
+{
+  "salt": {
+    "description": "Enhances other flavors, provides minerality",
+    "compounds": [
+      "sodium",
+      "chloride",
+      "nacl",
+      "salt",
+      "brine",
+      "mineral"
+    ],
+    "molecular_indicators": [
+      "na+",
+      "cl-",
+      "sodium_chloride",
+      "potassium",
+      "magnesium"
+    ]
+  },
+  "fat": {
+    "description": "Carries flavors, provides richness and mouthfeel",
+    "compounds": [
+      "lipid",
+      "fatty_acid",
+      "triglyceride",
+      "oil",
+      "butter",
+      "cream"
+    ],
+    "molecular_indicators": [
+      "oleic",
+      "palmitic",
+      "stearic",
+      "linoleic",
+      "saturated",
+      "unsaturated"
+    ]
+  },
+  "acid": {
+    "description": "Provides brightness, balances richness",
+    "compounds": [
+      "citric",
+      "acetic",
+      "malic",
+      "tartaric",
+      "lactic",
+      "ascorbic"
+    ],
+    "molecular_indicators": [
+      "acid",
+      "vinegar",
+      "citrus",
+      "fermented",
+      "sour",
+      "ph"
+    ]
+  },
+  "heat": {
+    "description": "Provides warmth, pungency, and sensation",
+    "compounds": [
+      "capsaicin",
+      "piperine",
+      "allicin",
+      "gingerol",
+      "eugenol"
+    ],
+    "molecular_indicators": [
+      "spicy",
+      "hot",
+      "pungent",
+      "warming",
+      "burning"
+    ]
+  },
+  "umami": {
+    "description": "Savory depth, meaty richness",
+    "compounds": [
+      "glutamate",
+      "inosinate",
+      "guanylate",
+      "nucleotide"
+    ],
+    "molecular_indicators": [
+      "msg",
+      "amino_acid",
+      "protein",
+      "savory",
+      "meaty"
+    ]
+  },
+  "sweet": {
+    "description": "Provides pleasure, balances bitterness",
+    "compounds": [
+      "sucrose",
+      "fructose",
+      "glucose",
+      "maltose",
+      "lactose"
+    ],
+    "molecular_indicators": [
+      "sugar",
+      "sweet",
+      "honey",
+      "syrup",
+      "caramel"
+    ]
+  },
+  "bitter": {
+    "description": "Adds complexity, signals alkaloids",
+    "compounds": [
+      "caffeine",
+      "theobromine",
+      "quinine",
+      "tannin",
+      "alkaloid"
+    ],
+    "molecular_indicators": [
+      "bitter",
+      "alkaloid",
+      "phenolic",
+      "astringent"
+    ]
+  },
+  "aromatic": {
+    "description": "Volatile compounds that create aroma and flavor",
+    "compounds": [
+      "terpene",
+      "ester",
+      "aldehyde",
+      "ketone",
+      "alcohol"
+    ],
+    "molecular_indicators": [
+      "volatile",
+      "aromatic",
+      "fragrant",
+      "perfume",
+      "essential"
+    ]
+  }
+}

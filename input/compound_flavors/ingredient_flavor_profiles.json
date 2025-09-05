@@ -1,0 +1,4112 @@
+{
+  "breakfast_cereal": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "kefir": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "swiss_cheese": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "nutmeg": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "turmeric": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "beef": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "filbert": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "candy_bar": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "vanilla": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "pea": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "tostada": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "sockeye_salmon": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "sour_cherry": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "sesame": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "caviar": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "syrup": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "brazil_nut": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "cheddar_cheese": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "cabbage": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "squid": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "acorn": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "shallot": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "turnip": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "condensed_milk": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "raspberry": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "blue_cheese": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "cashew_nut": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "potato_bread": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "swordfish": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "poppy_seed": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "wasabi": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "catfish": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "relish": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "cocoa_butter": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "avocado": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "cooking": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "leek": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "pigeon_pea": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "elderberry": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "flour": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "mustard": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "prawn": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "dumpling": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "port_wine": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "macadamia_nut": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "cardoon": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "millet": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "orange_roughy": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "plum": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "chestnut": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "feta_cheese": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "basmati_rice": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "milk": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "tofu": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "black_raspberry": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "lovage": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "clam": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "white_pepper": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "corn_chip": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "pear": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "cocoa": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "saskatoon_berry": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "currant": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "romano_cheese": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "okra": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "orange": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "cherry_pepper": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "vodka": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "broccoli": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "plum_wine": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "clove": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "sugar": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "walnut": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "barley": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "berry": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "cherry_tomato": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "eggplant": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "rutabaga": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "provolone_cheese": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "marjoram": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "evaporated_milk": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "peppermint": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "apple": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "grape": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "cake": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "sausage": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "bean": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "endive": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "pheasant": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "jalapeno": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "rye_bread": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "chocolate_spread": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "pudding": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "almond": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "fig": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "lemon_verbena": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "black_eyed_pea": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "melon": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "waffle": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "horseradish": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "watercress": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "strawberry_jam": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "bamboo_shoot": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "rapini": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "semolina": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "corn": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "nigella_seed": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "arrowroot": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "citrus": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "mint": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "quail": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "pectin": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "lobster": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "ketchup": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "canola": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "sugar_substitute": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "winter_savory": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "prickly_pear": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "potato": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "lima_bean": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "truffle": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "garlic": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "red_raspberry": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "summer_savory": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "mace": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "sparkling_wine": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "parsnip": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "rabbit": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "capsicum": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "biscuit": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "allspice": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "guava": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "cornbread": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "raisin": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "cassia": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "breadfruit": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "fruit": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "cranberry": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "green_tea": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "salad": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "margarine": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "turbot": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "mixed_nut": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "sorrel": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "squirrel": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "ice_cream": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "miso": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "rosemary": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "tamale": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "tangerine": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "cauliflower": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "roquefort_cheese": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "oat": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "rose": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "gin": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "dulce_de_leche": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "spearmint": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "oyster_mushroom": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "chicken": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "vinegar": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "gelatin": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "cherry": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "white_bread": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "apple_brandy": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "pork": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "crab": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "mulberry": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "whey": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "cucumber": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "lime": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "meatball": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "banana": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "fruit_preserve": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "agave": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "adzuki_bean": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "sweetcorn": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "meatloaf": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "cardamom": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "ricotta_cheese": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "hazelnut": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "grouper": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "madeira_wine": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "cherry_brandy": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "parmesan_cheese": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "meringue": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "pancake": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "pistachio": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "date": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "beer": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "teff": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "ravioli": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "strawberry": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "coffee": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "pepper": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "nut": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "black_currant": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "scotch_whisky": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "chili": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "parsley": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "mexican_oregano": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "irish_moss": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "sweet_potato": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "beef_top_round_steak": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "striped_bass": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "olive": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "coconut": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "pasta": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "rainbow_trout": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "couscous": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "lemon": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "lingonberry": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "squab": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "soybean": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "dill": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "cinnamon": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "chayote": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "cheese": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "wine": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "celery": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "deer": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "bagel": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "trail": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "kumquat": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "black_tea": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "bread": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "kohlrabi": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "cream": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "buttermilk": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "curry_leaf": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "soup": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "tarragon": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "red_rice": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "chive": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "fish": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "sage": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "hot_dog": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "fennel": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "thyme": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "pumpkin": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "mandarin_orange": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "peach": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "wild_rice": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "star_anise": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "amaranth": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "red_wine": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "purslane": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "boysenberry": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "lentil": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "cassava": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "epazote": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "plum_brandy": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "pear_brandy": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "mushroom": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "fruit_salad": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "marzipan": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "apricot": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "butternut_squash": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "red_currant": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "cream_cheese": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "macaroni": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "molasses": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "mango": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "ham": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "abalone": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "beetroot": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "fudge": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "gooseberry": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "jerusalem_artichoke": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "spirulina": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "wheat": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "brussels_sprout": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "rum": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "asparagus": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "honey": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "alfalfa": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "shrimp": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "kelp": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "blackberry": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "cumin": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "radish": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "rice": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "yellow_zucchini": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "peanut_butter": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "icing": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "wonton_wrapper": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "pink_salmon": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "sorghum": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "pate": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "raisin_bread": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "tortilla": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "onion": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "albacore_tuna": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "carom_seed": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "basil": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "quinoa": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "haddock": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "anchovy": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "butter": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "smelt": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "shortening": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "lamb": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "grapefruit": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "pawpaw": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "mung_bean": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "winter_squash": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "green_bean": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "potato_chip": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "hummus": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "ginger": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "conch": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "spinach": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "pita_bread": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "tortilla_chip": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "vermouth": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "walleye": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "yogurt": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "papaya": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "champagne": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "tomato": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "jackfruit": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "apple_cider_vinegar": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "spelt": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "blueberry": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "saffron": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "lemon_balm": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "jicama": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "salmon": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "quince": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "tea": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "bulgur": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "crayfish": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "mutton": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "soy_yogurt": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "multigrain_bread": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "vegetable": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "coriander": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "kale": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "carrot": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "comte_cheese": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "blackberry_brandy": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "salt": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "oyster": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "ice_cream_cone": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "chervil": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "cottage_cheese": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "pomegranate": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "snail": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "pecan": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "bartlett_pear": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "kidney_bean": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "brandy": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "scallop": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "anise": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "water": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "lettuce": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "meat": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "mozzarella_cheese": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "burrito": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "pie_crust": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "peanut": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "egg": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "angelica": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "rose_wine": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "white_wine": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "chickpea": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "hop": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "green_zucchini": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "buffalo": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "goat_cheese": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "sake": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "cuttlefish": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "ginkgo_nut": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "rice_cake": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "marshmallow": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "ghee": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "hamburger": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "chocolate": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "water_chestnut": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "gruyere_cheese": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "phyllo_dough": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "kombu": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "persimmon": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "popcorn": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "rhubarb": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "cider": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "bluefish": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "caper": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "oregano": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "agar": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "pineapple": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "yam": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "camembert_cheese": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "turkey": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "artichoke": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "sweet_marjoram": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "sweet_basil": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "swede": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "orange_bell_pepper": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "chinese_cabbage": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "kiwi": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "green_bell_pepper": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "yellow_bell_pepper": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "white_cabbage": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "red_bell_pepper": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "chinese_mustard": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "broad_bean": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "black_walnut": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "star": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "passion": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "clementine": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  },
+  "sweet_cherry": {
+    "salt": NaN,
+    "fat": NaN,
+    "acid": NaN,
+    "heat": NaN,
+    "umami": NaN,
+    "sweet": NaN,
+    "bitter": NaN,
+    "aromatic": NaN
+  }
+}
