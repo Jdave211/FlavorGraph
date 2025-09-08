@@ -1628,3 +1628,7 @@ procyanidin_c,8700,Procyanidin_C,salt,0.125,0.125,0.125,0.125,0.125,0.125,0.125,
 6-keto-28-homobrassinolide,8701,6-Keto-28-homobrassinolide,salt,0.125,0.125,0.125,0.125,0.125,0.125,0.125,0.125,0.125
 anthocyanidins,8702,Anthocyanidins,salt,0.125,0.125,0.125,0.125,0.125,0.125,0.125,0.125,0.125
 procyanidin_b3,8703,Procyanidin_B3,salt,0.125,0.125,0.125,0.125,0.125,0.125,0.125,0.125,0.125
+capsaicin,8704,Capsaicin,heat,0.95,0.0,0.0,0.0,0.95,0.0,0.0,0.05,0.0
+ethanol,8705,Ethanol,aromatic,0.7,0.0,0.0,0.0,0.0,0.0,0.3,0.0,0.7
+lactic-acid,8706,Lactic acid,acid,0.8,0.0,0.0,0.8,0.0,0.0,0.0,0.0,0.2
+sucralose,8707,Sucralose,sweet,0.9,0.0,0.0,0.0,0.0,0.0,0.9,0.1,0.0

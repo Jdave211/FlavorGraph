@@ -121,6 +121,16 @@ class FlavorEnhancedSkipGramModel(nn.Module):
                     (['vanillin', 'eugenol', 'clove', 'vanilla'], 'vanilla_spicy'),
                     (['geosmin', 'm earthy', 'earthy', 'humus'], 'earthy_musty'),
                     (['butyric', 'diacetyl', 'butter', 'dairy'], 'buttery_dairy'),
+                    (['capsaicin', 'isothiocyanate', 'piperine', 'pungent'], 'pungent_spicy'),
+                    (['tannin', 'tannic', 'astringent', 'polyphenol'], 'astringent_tannic'),
+                    (['glutamate', 'inosinate', 'guanylate', 'savory'], 'savory_umami'),
+                    (['sodium', 'chloride', 'briny', 'saline'], 'briny_saline'),
+                    (['menthol', 'cooling', 'fresh', 'eucalyptol'], 'cooling_fresh'),
+                    (['pyrazine', 'aldehyde', 'nutty', 'roasted'], 'nutty'),
+                    (['metallic', 'iron', 'copper', 'zinc'], 'metallic'),
+                    (['waxy', 'fatty', 'aldehyde', 'ester'], 'waxy'),
+                    (['sanshool', 'spilanthol', 'tingling', 'numbing'], 'tingling_numbing'),
+                    (['rubber', 'latex', 'sulfur', 'rubbery'], 'rubbery'),
                 ]
 
                 derived_index = {name: i for i, name in enumerate(self.derived_flavor_categories)}

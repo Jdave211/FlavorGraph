@@ -8297,3 +8297,7 @@ node_id,name,id,node_type,is_hub,cleaned_name
 8701,6-Keto-28-homobrassinolide,134291.0,compound,drug,6-keto-28-homobrassinolide
 8702,Anthocyanidins,145858.0,compound,drug,anthocyanidins
 8703,Procyanidin_B3,146798.0,compound,drug,procyanidin_b3
+8704,Capsaicin,404.0,compound,food,capsaicin
+8705,Ethanol,46.0,compound,food,ethanol
+8706,Lactic_acid,90.0,compound,food,lactic-acid
+8707,Sucralose,397.0,compound,food,sucralose
