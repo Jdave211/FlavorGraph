@@ -38,6 +38,16 @@ class FlavorEnhancedSkipGramModel(nn.Module):
             'vanilla_spicy',     # vanillin, eugenol
             'earthy_musty',      # geosmin
             'buttery_dairy'      # butyric, diacetyl
+            'pungent_spicy',     # allyl isothiocyanate (mustard), piperine (black pepper)
+            'astringent_tannic', # tannins (wine, tea)
+            'savory_umami',      # glutamate, inosinate
+            'briny_saline',      # sodium chloride
+            'cooling_fresh',     # menthol
+            'nutty',             # pyrazines, aldehydes
+            'metallic',          # iron, copper, zinc
+            'waxy',              # aldehydes, esters
+            'tingling_numbing',  # hydroxy-α-sanshool (Sichuan peppercorn), spilanthol (jambu)
+            'rubbery', 
         ]
         self.flavor_categories = self.base_flavor_categories + self.derived_flavor_categories
         self.flavor_dimension = len(self.flavor_categories)
