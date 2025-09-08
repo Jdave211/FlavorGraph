@@ -52,6 +52,10 @@ def parameter_parser():
     parser.add_argument('--CSP_train', default=False, action="store_true")
     parser.add_argument('--CSP_coef', default=0.0001, type=float)
     parser.add_argument('--CSP_save', default=False, action="store_true")
+    
+    # Flavor Enhancement
+    parser.add_argument('--flavor_enhanced', default=False, action="store_true", 
+                       help="Use flavor-enhanced embeddings with chemical compound data")
 
     
     

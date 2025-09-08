@@ -10,6 +10,7 @@ import os
 from dataloader import DataReader, DatasetLoader
 from walkers import MetaPathWalker, DeepWalker
 from model import SkipGramModel, SkipGramModelAux
+from enhanced_model import create_enhanced_model
 
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "1"
@@ -65,6 +66,10 @@ class Metapath2Vec:
             print("\n\n#####################################")
             print("### SkipGram with CSP")
             self.skip_gram_model = SkipGramModelAux(self.emb_size, self.emb_dimension, nodes=self.data.id2word, aux_coef=self.aux_coef, CSP_save=args.CSP_save)
+        elif hasattr(args, 'flavor_enhanced') and args.flavor_enhanced:
+            print("\n\n#####################################")
+            print("### SkipGram with Flavor Enhancement")
+            self.skip_gram_model = create_enhanced_model(self.emb_size, self.emb_dimension, args.input_nodes)
         else:
             print("\n\n#####################################")
             print("### SkipGram Normal")
@@ -88,7 +93,17 @@ class Metapath2Vec:
                 aux_optimizer = optim.Adam([e], lr=0.001)
                 aux_scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(aux_optimizer, len(self.dataloader))
             else:
-                optimizer = optim.SparseAdam(self.skip_gram_model.parameters(), lr=self.initial_lr)
+                # Handle enhanced model with mixed sparse/dense parameters
+                if hasattr(self.skip_gram_model, 'flavor_encoder'):
+                    # Separate optimizers for sparse embeddings and dense layers
+                    sparse_params = [self.skip_gram_model.u_embeddings.weight, self.skip_gram_model.v_embeddings.weight]
+                    dense_params = [self.skip_gram_model.flavor_encoder.weight, self.skip_gram_model.flavor_encoder.bias,
+                                   self.skip_gram_model.flavor_fusion.weight, self.skip_gram_model.flavor_fusion.bias]
+                    optimizer = optim.SparseAdam(sparse_params, lr=self.initial_lr)
+                    dense_optimizer = optim.Adam(dense_params, lr=self.initial_lr)
+                else:
+                    optimizer = optim.SparseAdam(self.skip_gram_model.parameters(), lr=self.initial_lr)
+                    dense_optimizer = None
             scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, len(self.dataloader))
 
             running_loss = 0.0
@@ -100,6 +115,8 @@ class Metapath2Vec:
 
                     scheduler.step()
                     optimizer.zero_grad()
+                    if hasattr(self.skip_gram_model, 'flavor_encoder') and 'dense_optimizer' in locals():
+                        dense_optimizer.zero_grad()
                     if self.aux_mode:
                         aux_scheduler.step()
                         aux_optimizer.zero_grad()
@@ -107,6 +124,8 @@ class Metapath2Vec:
                     loss = self.skip_gram_model.forward(pos_u, pos_v, neg_v)
                     loss.backward()
                     optimizer.step()
+                    if hasattr(self.skip_gram_model, 'flavor_encoder') and 'dense_optimizer' in locals():
+                        dense_optimizer.step()
                     if self.aux_mode:
                         aux_optimizer.step()
                     running_loss = running_loss * 0.9 + loss.item() * 0.1
