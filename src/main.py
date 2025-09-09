@@ -5,6 +5,7 @@ from utils import tab_printer, graph_reader, evaluate
 from dataloader import DataReader, DatasetLoader
 from graph2vec import Metapath2Vec, Node2Vec
 from plotter import plot_embedding
+from enhanced_plotter import plot_embedding_with_regions
 
 import os
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
@@ -41,6 +42,12 @@ def main():
     3. Plot your embedding if you like
     """
     plot_embedding(args, graph)
+    
+    # Create enhanced plot with flavor regions if using flavor enhancement
+    if hasattr(args, 'flavor_enhanced') and args.flavor_enhanced:
+        print("\nCreating enhanced plot with flavor regions...")
+        region_analysis = plot_embedding_with_regions(args, graph)
+        print(f"Identified {len(region_analysis)} flavor regions in embedding space")
 
     """
     4. Evaluate Node Classification & Node Clustering
