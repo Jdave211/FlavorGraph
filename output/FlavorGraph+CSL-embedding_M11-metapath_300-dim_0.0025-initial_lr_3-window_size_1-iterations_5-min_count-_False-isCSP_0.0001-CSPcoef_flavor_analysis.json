@@ -1,7 +1,7 @@
 {
-  "total_embeddings": 8298,
+  "total_embeddings": 1509,
   "embedding_dimension": 300,
-  "flavor_enhanced_nodes": 121,
+  "flavor_enhanced_nodes": 1645,
   "flavor_categories": [
     "salt",
     "fat",
@@ -22,7 +22,8 @@
     "caramel_browned",
     "vanilla_spicy",
     "earthy_musty",
-    "buttery_dairypungent_spicy",
+    "buttery_dairy",
+    "pungent_spicy",
     "astringent_tannic",
     "savory_umami",
     "briny_saline",
@@ -34,7 +35,7 @@
     "rubbery"
   ],
   "num_base_categories": 8,
-  "num_derived_categories": 21,
+  "num_derived_categories": 22,
   "sample_flavor_profiles": {
     "8192": [
       0.125,
@@ -45,6 +46,7 @@
       0.125,
       0.125,
       0.125,
+      0.0,
       0.0,
       0.0,
       0.0,
@@ -96,6 +98,7 @@
       0.0,
       0.0,
       0.0,
+      0.0,
       0.0
     ],
     "8194": [
@@ -109,6 +112,7 @@
       0.125,
       0.0,
       0.15625,
+      0.0,
       0.0,
       0.0,
       0.0,
@@ -136,6 +140,7 @@
       0.0,
       0.0,
       0.6666666666666666,
+      0.0,
       0.0,
       0.0,
       0.0,
@@ -189,6 +194,7 @@
       0.0,
       0.0,
       0.0,
+      0.0,
       0.0
     ],
     "8197": [
@@ -200,6 +206,7 @@
       0.125,
       0.125,
       0.125,
+      0.0,
       0.0,
       0.0,
       0.0,
@@ -251,6 +258,7 @@
       0.0,
       0.0,
       0.0,
+      0.0,
       0.0
     ],
     "8199": [
@@ -262,6 +270,7 @@
       0.125,
       0.125,
       0.125,
+      0.0,
       0.0,
       0.0,
       0.0,
@@ -313,6 +322,7 @@
       0.0,
       0.0,
       0.0,
+      0.0,
       0.0
     ],
     "8201": [
@@ -328,6 +338,7 @@
       0.0,
       0.0,
       1.0,
+      0.0,
       0.0,
       0.0,
       0.0,

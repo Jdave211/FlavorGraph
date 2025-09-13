@@ -8301,3 +8301,13 @@ node_id,name,id,node_type,is_hub,cleaned_name
 8705,Ethanol,46.0,compound,food,ethanol
 8706,Lactic_acid,90.0,compound,food,lactic-acid
 8707,Sucralose,397.0,compound,food,sucralose
+8748,black_garlic,,ingredient,no_hub,black_garlic
+8749,chinkiang_vinegar,,ingredient,no_hub,chinkiang_vinegar
+8750,sichuan_peppercorn,,ingredient,no_hub,sichuan_peppercorn
+8751,sweet_soy_sauce,,ingredient,no_hub,sweet_soy_sauce
+8753,Menthol,,compound,food,menthol
+8754,alpha-Pinene,,compound,food,alpha_pinene
+8755,zaatar,,ingredient,no_hub,zaatar
+8756,olive_oil,,ingredient,no_hub,olive_oil
+8757,halloumi,,ingredient,no_hub,halloumi
+8758,capers,,ingredient,no_hub,capers

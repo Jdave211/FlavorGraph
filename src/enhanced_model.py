@@ -37,7 +37,7 @@ class FlavorEnhancedSkipGramModel(nn.Module):
             'caramel_browned',   # maltol, furans
             'vanilla_spicy',     # vanillin, eugenol
             'earthy_musty',      # geosmin
-            'buttery_dairy'      # butyric, diacetyl
+            'buttery_dairy',     # butyric, diacetyl
             'pungent_spicy',     # allyl isothiocyanate (mustard), piperine (black pepper)
             'astringent_tannic', # tannins (wine, tea)
             'savory_umami',      # glutamate, inosinate

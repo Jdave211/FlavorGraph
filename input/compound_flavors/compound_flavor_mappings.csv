@@ -1632,3 +1632,21 @@ capsaicin,8704,Capsaicin,heat,0.95,0.0,0.0,0.0,0.95,0.0,0.0,0.05,0.0
 ethanol,8705,Ethanol,aromatic,0.7,0.0,0.0,0.0,0.0,0.0,0.3,0.0,0.7
 lactic-acid,8706,Lactic acid,acid,0.8,0.0,0.0,0.8,0.0,0.0,0.0,0.0,0.2
 sucralose,8707,Sucralose,sweet,0.9,0.0,0.0,0.0,0.0,0.0,0.9,0.1,0.0
+linalool,8752,Linalool,aromatic,0.90,0.00,0.00,0.00,0.00,0.00,0.10,0.00,0.90
+menthol,8753,Menthol,aromatic,0.95,0.00,0.00,0.00,0.00,0.00,0.05,0.00,0.95
+alpha_pinene,8754,alpha-Pinene,aromatic,0.90,0.00,0.00,0.00,0.00,0.00,0.05,0.00,0.95
+myrcene,8755,Myrcene,aromatic,0.90,0.00,0.00,0.00,0.00,0.00,0.05,0.00,0.95
+geraniol,8756,Geraniol,aromatic,0.90,0.00,0.00,0.00,0.00,0.00,0.15,0.00,0.85
+acetic_acid,8757,Acetic acid,acid,0.90,0.00,0.00,0.90,0.00,0.00,0.10,0.00,0.00
+citric_acid,8758,Citric acid,acid,0.95,0.00,0.00,0.95,0.00,0.00,0.05,0.00,0.00
+vanillin,8759,Vanillin,aromatic,0.85,0.00,0.00,0.00,0.00,0.00,0.50,0.00,0.50
+eugenol,8760,Eugenol,aromatic,0.90,0.00,0.10,0.00,0.10,0.00,0.10,0.10,0.70
+linalool,8759,Linalool,aromatic,0.90,0.00,0.00,0.00,0.00,0.00,0.10,0.00,0.90
+menthol,8760,Menthol,aromatic,0.95,0.00,0.00,0.00,0.00,0.00,0.05,0.00,0.95
+alpha_pinene,8761,alpha-Pinene,aromatic,0.90,0.00,0.00,0.00,0.00,0.00,0.05,0.00,0.95
+myrcene,8762,Myrcene,aromatic,0.90,0.00,0.00,0.00,0.00,0.00,0.05,0.00,0.95
+geraniol,8763,Geraniol,aromatic,0.90,0.00,0.00,0.00,0.00,0.00,0.15,0.00,0.85
+acetic_acid,8764,Acetic acid,acid,0.90,0.00,0.00,0.90,0.00,0.00,0.10,0.00,0.00
+citric_acid,8765,Citric acid,acid,0.95,0.00,0.00,0.95,0.00,0.00,0.05,0.00,0.00
+vanillin,8766,Vanillin,aromatic,0.85,0.00,0.00,0.00,0.00,0.00,0.50,0.00,0.50
+eugenol,8767,Eugenol,aromatic,0.90,0.00,0.10,0.00,0.10,0.00,0.10,0.10,0.70
