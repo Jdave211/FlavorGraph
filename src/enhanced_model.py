@@ -311,3 +311,5 @@ if __name__ == "__main__":
     loss = model(pos_u, pos_v, neg_v)
     print(f"Test loss: {loss.item():.4f}")
     print("FlavorEnhanced model test completed!")
+
+
