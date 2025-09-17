@@ -1,0 +1,94 @@
+# FlavorGraph AI Model Configuration - Mistral 7B with QLoRA
+# Memory-efficient option for smaller Paperspace machines
+
+model_config:
+  base_model: "mistralai/Mistral-7B-Instruct-v0.1"
+  model_type: "mistral"
+  
+  # QLoRA Configuration (4-bit quantization + LoRA)
+  use_lora: true
+  lora_r: 32
+  lora_alpha: 64
+  lora_dropout: 0.1
+  lora_target_modules: ["q_proj", "v_proj", "k_proj", "o_proj", "gate_proj", "up_proj", "down_proj"]
+  
+  # 4-bit quantization for memory efficiency
+  load_in_4bit: true
+  bnb_4bit_compute_dtype: "float16"
+  bnb_4bit_quant_type: "nf4"
+  bnb_4bit_use_double_quant: true
+  
+  # Custom layers for FlavorGraph
+  add_flavor_projection: true
+  flavor_embedding_dim: 30
+  ingredient_embedding_dim: 300
+
+training_config:
+  # Data
+  train_file: "training_data/combined_training.jsonl"
+  validation_split: 0.1
+  max_seq_length: 1024  # Mistral can handle longer sequences
+  
+  # Training hyperparameters (adjusted for QLoRA)
+  num_epochs: 4
+  batch_size: 2
+  gradient_accumulation_steps: 8  # Effective batch size = 16
+  learning_rate: 1e-4  # Lower LR for QLoRA
+  weight_decay: 0.01
+  warmup_steps: 200
+  
+  # Optimization
+  optimizer: "paged_adamw_32bit"  # For QLoRA
+  lr_scheduler: "cosine"
+  gradient_checkpointing: true
+  dataloader_num_workers: 2
+  
+  # Logging and saving
+  logging_steps: 20
+  save_steps: 500
+  eval_steps: 250
+  save_total_limit: 2
+  
+  # Mixed precision (important for QLoRA)
+  fp16: false
+  bf16: true  # Better for QLoRA
+
+output_config:
+  output_dir: "./output/mistral7b_flavorgraph_qlora"
+  run_name: "mistral7b_flavorgraph_qlora"
+  
+  # Weights & Biases
+  use_wandb: true
+  wandb_project: "flavorgraph-ai"
+  wandb_entity: null
+  
+  # Model saving
+  push_to_hub: false
+  hub_model_id: null
+
+hardware_config:
+  # More memory-efficient - works on RTX4000/RTX5000
+  machine_type: "RTX4000"  # or "RTX5000"
+  
+  # CUDA settings
+  cuda_visible_devices: "0"
+  
+  # Memory optimization (crucial for QLoRA)
+  gradient_checkpointing: true
+  dataloader_pin_memory: false  # Can cause issues with QLoRA
+  max_memory_MB: 15000  # Adjust based on GPU
+
+evaluation_config:
+  # Evaluation metrics
+  compute_metrics: true
+  
+  # Custom FlavorGraph evaluation
+  evaluate_ingredient_similarity: true
+  evaluate_substitution_quality: true
+  evaluate_flavor_understanding: true
+  
+  # Generation parameters
+  max_new_tokens: 200
+  temperature: 0.6
+  top_p: 0.85
+  do_sample: true

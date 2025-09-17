@@ -1,0 +1,33 @@
+{
+  "total_examples": 8830,
+  "ingredient_examples": 3387,
+  "flavor_examples": 4953,
+  "substitution_examples": 290,
+  "recipe_examples": 200,
+  "total_nodes": 8312,
+  "total_embeddings": 1509,
+  "embedding_dimensions": 300,
+  "categories": [
+    "Seafood",
+    "Nut/Seed",
+    "Fungus",
+    "Cereal/Crop/Bean",
+    "Plant/Vegetable",
+    "Spice",
+    "Flower",
+    "Fruit",
+    "Beverage Alcoholic",
+    "Sauce/Powder/Dressing",
+    "Meat/Animal Product",
+    "Bakery/Dessert/Snack",
+    "Essential Oil/Fat",
+    "Dairy",
+    "Beverage",
+    "Dish/End Product",
+    "ETC"
+  ],
+  "node_types": [
+    "ingredient",
+    "compound"
+  ]
+}

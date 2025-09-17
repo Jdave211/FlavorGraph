@@ -1,0 +1,92 @@
+# FlavorGraph AI Model Configuration - Llama 7B for A4000 (16GB)
+# Memory-optimized LoRA configuration for NVIDIA A4000
+
+model_config:
+  base_model: "meta-llama/Llama-2-7b-hf"
+  model_type: "llama"
+  
+  # LoRA Configuration (optimized for 16GB)
+  use_lora: true
+  lora_r: 8  # Reduced from 16 to save memory
+  lora_alpha: 16  # Reduced proportionally
+  lora_dropout: 0.1
+  lora_target_modules: ["q_proj", "v_proj"]  # Fewer modules to save memory
+  
+  # 8-bit quantization for memory efficiency
+  load_in_4bit: false
+  load_in_8bit: true  # Use 8-bit to fit in 16GB
+  
+  # Custom layers for FlavorGraph
+  add_flavor_projection: true
+  flavor_embedding_dim: 30
+  ingredient_embedding_dim: 300
+
+training_config:
+  # Data
+  train_file: "training_data/combined_training.jsonl"
+  validation_split: 0.1
+  max_seq_length: 384  # Reduced from 512 to save memory
+  
+  # Training hyperparameters (memory-optimized)
+  num_epochs: 3
+  batch_size: 1  # Reduced to fit in 16GB
+  gradient_accumulation_steps: 16  # Increased to maintain effective batch size
+  learning_rate: 1e-4  # Slightly lower for stability
+  weight_decay: 0.01
+  warmup_steps: 200
+  
+  # Optimization
+  optimizer: "adamw"
+  lr_scheduler: "cosine"
+  gradient_checkpointing: true  # Essential for memory savings
+  dataloader_num_workers: 2  # Reduced to save memory
+  
+  # Logging and saving
+  logging_steps: 20
+  save_steps: 1000  # Less frequent saves to avoid I/O overhead
+  eval_steps: 500
+  save_total_limit: 2  # Keep fewer checkpoints
+  
+  # Mixed precision (crucial for A4000)
+  fp16: true
+  bf16: false
+
+output_config:
+  output_dir: "./output/llama7b_flavorgraph_a4000"
+  run_name: "llama7b_flavorgraph_a4000"
+  
+  # Weights & Biases
+  use_wandb: true
+  wandb_project: "flavorgraph-ai"
+  wandb_entity: null
+  
+  # Model saving
+  push_to_hub: false
+  hub_model_id: null
+
+hardware_config:
+  # A4000 specific settings
+  machine_type: "A4000"
+  
+  # CUDA settings
+  cuda_visible_devices: "0"
+  
+  # Memory optimization (critical for 16GB)
+  gradient_checkpointing: true
+  dataloader_pin_memory: false  # Disable to save memory
+  max_memory_MB: 14000  # Leave 2GB buffer for system
+
+evaluation_config:
+  # Evaluation metrics
+  compute_metrics: true
+  
+  # Custom FlavorGraph evaluation
+  evaluate_ingredient_similarity: true
+  evaluate_substitution_quality: true
+  evaluate_flavor_understanding: true
+  
+  # Generation parameters (memory-conscious)
+  max_new_tokens: 200  # Reduced from 256
+  temperature: 0.7
+  top_p: 0.9
+  do_sample: true

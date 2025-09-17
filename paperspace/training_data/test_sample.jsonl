@@ -1,0 +1,100 @@
+{"instruction": "What can you tell me about rabbit?", "input": "rabbit", "output": "Rabbit (node_id: 5176) is a ingredient. classified as Meat/Animal Product. and is a hub ingredient (commonly used across many recipes)."}
+{"instruction": "What can you tell me about clove?", "input": "clove", "output": "Clove (node_id: 1411) is a ingredient. classified as Spice. and is a hub ingredient (commonly used across many recipes)."}
+{"instruction": "What can you tell me about lean ground beef?", "input": "lean_ground_beef", "output": "Lean Ground Beef (node_id: 3693) is a ingredient. classified as Meat/Animal Product."}
+{"instruction": "Explain the taste properties of menthol", "input": "menthol", "output": "Menthol (node_id: 8753) is a chemical compound. with primary flavor characteristics: aromatic=0.95."}
+{"instruction": "What type of ingredient is squab?", "input": "squab", "output": "Squab is Squab (node_id: 6079) is a ingredient. classified as Meat/Animal Product. and is a hub ingredient (commonly used across many recipes)."}
+{"instruction": "Describe this ingredient and its properties", "input": "jackfruit", "output": "Jackfruit (node_id: 3489) is a ingredient. classified as Fruit. and is a hub ingredient (commonly used across many recipes)."}
+{"instruction": "Describe this ingredient and its properties", "input": "basmati rice", "output": "Basmati Rice (node_id: 336) is a ingredient. classified as Cereal/Crop/Bean. and is a hub ingredient (commonly used across many recipes)."}
+{"instruction": "Describe this ingredient and its properties", "input": "vanilla ice cream", "output": "Vanilla Ice Cream (node_id: 6653) is a ingredient. classified as Dairy."}
+{"instruction": "Explain the taste properties of 2-amino-3-(prop-2-en-1-ylsulfanyl)propanoic_acid", "input": "2-amino-3-(prop-2-en-1-ylsulfanyl)propanoic_acid", "output": "2-Amino-3-(Prop-2-En-1-Ylsulfanyl)Propanoic Acid (node_id: 8098) is a chemical compound. with primary flavor characteristics: acid=1.00. This acid compound contributes sourness and preservation properties."}
+{"instruction": "Explain the taste properties of nopol", "input": "nopol", "output": "Nopol (node_id: 7830) is a chemical compound."}
+{"instruction": "What type of ingredient is catfish?", "input": "catfish", "output": "Catfish is Catfish (node_id: 1023) is a ingredient. classified as Seafood. and is a hub ingredient (commonly used across many recipes)."}
+{"instruction": "What are the chemical flavor characteristics of this compound?", "input": "ginkgolide b", "output": "Ginkgolide B (node_id: 7992) is a chemical compound."}
+{"instruction": "Describe this ingredient and its properties", "input": "russet potato", "output": "Russet Potato (node_id: 5565) is a ingredient. classified as Plant/Vegetable."}
+{"instruction": "Describe this ingredient and its properties", "input": "white cabbage", "output": "White Cabbage (node_id: 6843) is a ingredient. classified as Plant/Vegetable. and is a hub ingredient (commonly used across many recipes)."}
+{"instruction": "What can you tell me about red pepper?", "input": "red_pepper", "output": "Red Pepper (node_id: 2058) is a ingredient. classified as Plant/Vegetable."}
+{"instruction": "Explain the taste properties of 6,10-dimethyl-2-undecanone", "input": "6,10-dimethyl-2-undecanone", "output": "6,10-Dimethyl-2-Undecanone (node_id: 8095) is a chemical compound."}
+{"instruction": "Explain the taste properties of 3-methylbutyl_2-methylbutanoate", "input": "3-methylbutyl_2-methylbutanoate", "output": "3-Methylbutyl 2-Methylbutanoate (node_id: 8248) is a chemical compound."}
+{"instruction": "Explain the taste properties of trans-2-octen-1-ol", "input": "trans-2-octen-1-ol", "output": "Trans-2-Octen-1-Ol (node_id: 8443) is a chemical compound."}
+{"instruction": "Explain the taste properties of eicosan-1-ol", "input": "eicosan-1-ol", "output": "Eicosan-1-Ol (node_id: 8687) is a chemical compound."}
+{"instruction": "What can I substitute for pectin?", "input": "pectin", "output": "Based on category (ETC) and functional similarity, cooking spray can substitute for pectin. Both ingredients share similar properties within the ETC category (similarity: 0.600)."}
+{"instruction": "What are the chemical flavor characteristics of this compound?", "input": "2-pentyl acetate", "output": "2-Pentyl Acetate (node_id: 7614) is a chemical compound."}
+{"instruction": "What are the chemical flavor characteristics of this compound?", "input": "d-fenchone", "output": "D-Fenchone (node_id: 8341) is a chemical compound."}
+{"instruction": "What type of ingredient is purslane?", "input": "purslane", "output": "Purslane is Purslane (node_id: 5147) is a ingredient. classified as Plant/Vegetable. and is a hub ingredient (commonly used across many recipes)."}
+{"instruction": "Describe this ingredient and its properties", "input": "spaghetti", "output": "Spaghetti (node_id: 6010) is a ingredient. classified as Cereal/Crop/Bean."}
+{"instruction": "Describe this ingredient and its properties", "input": "ground cinnamon", "output": "Ground Cinnamon (node_id: 3071) is a ingredient. classified as Spice."}
+{"instruction": "Describe this ingredient and its properties", "input": "pumpkin", "output": "Pumpkin (node_id: 2555) is a ingredient. classified as Plant/Vegetable."}
+{"instruction": "What type of ingredient is granulated sugar?", "input": "granulated_sugar", "output": "Granulated Sugar is Granulated Sugar (node_id: 2945) is a ingredient. classified as Sauce/Powder/Dressing."}
+{"instruction": "Analyze the flavor profile of thiamine_hydrochloride", "input": "thiamine_hydrochloride", "output": "Thiamine Hydrochloride (node_id: 7226) is a chemical compound. with primary flavor characteristics: salt=1.00."}
+{"instruction": "What can you tell me about cornstarch?", "input": "cornstarch", "output": "Cornstarch (node_id: 1625) is a ingredient. classified as Cereal/Crop/Bean."}
+{"instruction": "Explain the taste properties of resorcinol", "input": "resorcinol", "output": "Resorcinol (node_id: 7210) is a chemical compound."}
+{"instruction": "Explain the taste properties of citric_acid", "input": "citric_acid", "output": "Citric Acid (node_id: 8758) is a chemical compound. with primary flavor characteristics: acid=0.95. This acid compound contributes sourness and preservation properties."}
+{"instruction": "Analyze the flavor profile of alpha-methylcinnamaldehyde", "input": "alpha-methylcinnamaldehyde", "output": "Alpha-Methylcinnamaldehyde (node_id: 8550) is a chemical compound. with primary flavor characteristics: aromatic=0.67."}
+{"instruction": "Describe this ingredient and its properties", "input": "cider", "output": "Cider (node_id: 1361) is a ingredient. classified as Beverage. and is a hub ingredient (commonly used across many recipes)."}
+{"instruction": "What can you tell me about okra?", "input": "okra", "output": "Okra (node_id: 2692) is a ingredient. classified as Plant/Vegetable."}
+{"instruction": "What type of ingredient is corn tortilla?", "input": "corn_tortilla", "output": "Corn Tortilla is Corn Tortilla (node_id: 18) is a ingredient. classified as Cereal/Crop/Bean."}
+{"instruction": "What are the chemical flavor characteristics of this compound?", "input": "5550-12-9", "output": "5550-12-9 (node_id: 7751) is a chemical compound."}
+{"instruction": "Describe this ingredient and its properties", "input": "bacon", "output": "Bacon (node_id: 5883) is a ingredient. classified as Meat/Animal Product."}
+{"instruction": "What are the chemical flavor characteristics of this compound?", "input": "trans,cis-2,6-nonadien-1-ol", "output": "Trans,Cis-2,6-Nonadien-1-Ol (node_id: 8492) is a chemical compound."}
+{"instruction": "Analyze the flavor profile of 2-methylnaphthalene", "input": "2-methylnaphthalene", "output": "2-Methylnaphthalene (node_id: 7273) is a chemical compound. with primary flavor characteristics: acid=1.00."}
+{"instruction": "What are the chemical flavor characteristics of this compound?", "input": "1-hepten-3-ol", "output": "1-Hepten-3-Ol (node_id: 7747) is a chemical compound."}
+{"instruction": "What type of ingredient is black bean?", "input": "black_bean", "output": "Black Bean is Black Bean (node_id: 900) is a ingredient. classified as Cereal/Crop/Bean."}
+{"instruction": "What can you tell me about radish?", "input": "radish", "output": "Radish (node_id: 5183) is a ingredient. classified as Plant/Vegetable. and is a hub ingredient (commonly used across many recipes)."}
+{"instruction": "What can you tell me about walleye?", "input": "walleye", "output": "Walleye (node_id: 6773) is a ingredient. classified as Seafood. and is a hub ingredient (commonly used across many recipes)."}
+{"instruction": "Analyze the flavor profile of methyl_propyl_disulfide", "input": "methyl_propyl_disulfide", "output": "Methyl Propyl Disulfide (node_id: 7696) is a chemical compound."}
+{"instruction": "Explain the taste properties of berteroin", "input": "berteroin", "output": "Berteroin (node_id: 8151) is a chemical compound."}
+{"instruction": "What are the chemical flavor characteristics of this compound?", "input": "eucalyptol", "output": "Eucalyptol (node_id: 7192) is a chemical compound."}
+{"instruction": "Explain the taste properties of diallyl_sulfide", "input": "diallyl_sulfide", "output": "Diallyl Sulfide (node_id: 7592) is a chemical compound."}
+{"instruction": "Find a replacement for crab in cooking", "input": "crab", "output": "Based on category (Seafood) and functional similarity, abalone can substitute for crab. Both ingredients share similar properties within the Seafood category (similarity: 0.600)."}
+{"instruction": "Why do mortadella and soppressata work well together?", "input": "mortadella, soppressata", "output": "Mortadella and Soppressata frequently appear together in recipes (co-occurrence score: 0.481). This pairing combines Unknown with Unknown, creating complementary flavors and textures that work well together."}
+{"instruction": "What are the chemical flavor characteristics of this compound?", "input": "crypton", "output": "Crypton (node_id: 8084) is a chemical compound."}
+{"instruction": "What type of ingredient is salmon?", "input": "salmon", "output": "Salmon is Salmon (node_id: 5631) is a ingredient. classified as Seafood."}
+{"instruction": "What are the chemical flavor characteristics of this compound?", "input": "phenethyl benzoate", "output": "Phenethyl Benzoate (node_id: 7285) is a chemical compound. with primary flavor characteristics: acid=1.00."}
+{"instruction": "What are the chemical flavor characteristics of this compound?", "input": "acetoxyacetone", "output": "Acetoxyacetone (node_id: 7589) is a chemical compound."}
+{"instruction": "Analyze the flavor profile of guaiene", "input": "guaiene", "output": "Guaiene (node_id: 7262) is a chemical compound."}
+{"instruction": "Analyze the flavor profile of 1,4-dimethoxybenzene", "input": "1,4-dimethoxybenzene", "output": "1,4-Dimethoxybenzene (node_id: 7493) is a chemical compound."}
+{"instruction": "Explain the taste properties of hexyl_phenylacetate", "input": "hexyl_phenylacetate", "output": "Hexyl Phenylacetate (node_id: 8154) is a chemical compound. with primary flavor characteristics: acid=1.00."}
+{"instruction": "What are the chemical flavor characteristics of this compound?", "input": "1-octanol", "output": "1-Octanol (node_id: 7161) is a chemical compound."}
+{"instruction": "Analyze the flavor profile of 4-methylpentanoic_acid", "input": "4-methylpentanoic_acid", "output": "4-Methylpentanoic Acid (node_id: 7640) is a chemical compound. with primary flavor characteristics: acid=1.00. This acid compound contributes sourness and preservation properties."}
+{"instruction": "Describe this ingredient and its properties", "input": "lima bean", "output": "Lima Bean (node_id: 2521) is a ingredient. classified as Cereal/Crop/Bean."}
+{"instruction": "What are the chemical flavor characteristics of this compound?", "input": "4-(4-hydroxyphenyl)-2-butanone", "output": "4-(4-Hydroxyphenyl)-2-Butanone (node_id: 7750) is a chemical compound. with primary flavor characteristics: acid=1.00."}
+{"instruction": "Describe this ingredient and its properties", "input": "onion", "output": "Onion (node_id: 2033) is a ingredient. classified as Plant/Vegetable."}
+{"instruction": "Describe this ingredient and its properties", "input": "kelp", "output": "Kelp (node_id: 3563) is a ingredient. classified as Seafood."}
+{"instruction": "What type of ingredient is sugar substitute?", "input": "sugar_substitute", "output": "Sugar Substitute is Sugar Substitute (node_id: 6204) is a ingredient. classified as Sauce/Powder/Dressing. and is a hub ingredient (commonly used across many recipes)."}
+{"instruction": "Describe this ingredient and its properties", "input": "bread", "output": "Bread (node_id: 676) is a ingredient. classified as Bakery/Dessert/Snack."}
+{"instruction": "What type of ingredient is breakfast cereal?", "input": "breakfast_cereal", "output": "Breakfast Cereal is Breakfast Cereal (node_id: 685) is a ingredient. classified as Cereal/Crop/Bean. and is a hub ingredient (commonly used across many recipes)."}
+{"instruction": "What can you tell me about clam?", "input": "clam", "output": "Clam (node_id: 907) is a ingredient. classified as Seafood."}
+{"instruction": "Describe this ingredient and its properties", "input": "capers", "output": "Capers (node_id: 8758) is a ingredient. classified as Sauce/Powder/Dressing."}
+{"instruction": "What are the chemical flavor characteristics of this compound?", "input": "octan-2-ol", "output": "Octan-2-Ol (node_id: 7736) is a chemical compound."}
+{"instruction": "Explain the taste properties of oxycanthine", "input": "oxycanthine", "output": "Oxycanthine (node_id: 8187) is a chemical compound."}
+{"instruction": "Describe this ingredient and its properties", "input": "bacon", "output": "Bacon (node_id: 267) is a ingredient. classified as Meat/Animal Product."}
+{"instruction": "What are the chemical flavor characteristics of this compound?", "input": "acrolein", "output": "Acrolein (node_id: 7374) is a chemical compound."}
+{"instruction": "Find a replacement for blackberry brandy in cooking", "input": "blackberry_brandy", "output": "Based on category (Beverage Alcoholic) and functional similarity, apple brandy can substitute for blackberry brandy. Both ingredients share similar properties within the Beverage Alcoholic category (similarity: 0.600)."}
+{"instruction": "What are the chemical flavor characteristics of this compound?", "input": "benzyl tiglate", "output": "Benzyl Tiglate (node_id: 8175) is a chemical compound."}
+{"instruction": "What type of ingredient is hazelnut?", "input": "hazelnut", "output": "Hazelnut is Hazelnut (node_id: 3206) is a ingredient. classified as Nut/Seed."}
+{"instruction": "What can you tell me about jalapeno?", "input": "jalapeno", "output": "Jalapeno (node_id: 3492) is a ingredient. classified as Plant/Vegetable. and is a hub ingredient (commonly used across many recipes)."}
+{"instruction": "What can I substitute for clam?", "input": "clam", "output": "Based on category (Seafood) and functional similarity, abalone can substitute for clam. Both ingredients share similar properties within the Seafood category (similarity: 0.600)."}
+{"instruction": "Explain the taste properties of scutellarein", "input": "scutellarein", "output": "Scutellarein (node_id: 8406) is a chemical compound."}
+{"instruction": "Explain the taste properties of 2-dodecanone", "input": "2-dodecanone", "output": "2-Dodecanone (node_id: 7759) is a chemical compound."}
+{"instruction": "What are the chemical flavor characteristics of this compound?", "input": "2-ethylfuran", "output": "2-Ethylfuran (node_id: 7721) is a chemical compound."}
+{"instruction": "What can you tell me about chicken stock?", "input": "chicken_stock", "output": "Chicken Stock (node_id: 1193) is a ingredient. classified as Sauce/Powder/Dressing."}
+{"instruction": "What type of ingredient is blueberry?", "input": "blueberry", "output": "Blueberry is Blueberry (node_id: 553) is a ingredient. classified as Fruit."}
+{"instruction": "Describe this ingredient and its properties", "input": "white pepper", "output": "White Pepper (node_id: 6895) is a ingredient. classified as Plant/Vegetable."}
+{"instruction": "Explain the taste properties of cid_21159022", "input": "cid_21159022", "output": "Cid 21159022 (node_id: 8648) is a chemical compound."}
+{"instruction": "What type of ingredient is lentil?", "input": "lentil", "output": "Lentil is Lentil (node_id: 3781) is a ingredient. classified as Cereal/Crop/Bean. and is a hub ingredient (commonly used across many recipes)."}
+{"instruction": "What type of ingredient is agave?", "input": "agave", "output": "Agave is Agave (node_id: 61) is a ingredient. classified as Plant/Vegetable. and is a hub ingredient (commonly used across many recipes)."}
+{"instruction": "Explain the taste properties of alpha-terpinene", "input": "alpha-terpinene", "output": "Alpha-Terpinene (node_id: 7315) is a chemical compound. with primary flavor characteristics: acid=1.00."}
+{"instruction": "What are the chemical flavor characteristics of this compound?", "input": "glycerides, palm-oil mono- and di-, hydrogenated, 3-oxododecanoates", "output": "Glycerides, Palm-Oil Mono- And Di-, Hydrogenated, 3-Oxododecanoates (node_id: 8662) is a chemical compound. with primary flavor characteristics: fat=1.00."}
+{"instruction": "What type of ingredient is cranberry?", "input": "cranberry", "output": "Cranberry is Cranberry (node_id: 6608) is a ingredient. classified as Fruit."}
+{"instruction": "Analyze the flavor profile of nerol", "input": "nerol", "output": "Nerol (node_id: 8330) is a chemical compound."}
+{"instruction": "Analyze the flavor profile of cianidanol", "input": "cianidanol", "output": "Cianidanol (node_id: 7496) is a chemical compound."}
+{"instruction": "Describe this ingredient and its properties", "input": "ground cumin", "output": "Ground Cumin (node_id: 3075) is a ingredient. classified as Spice."}
+{"instruction": "Explain the taste properties of beta-damascone", "input": "beta-damascone", "output": "Beta-Damascone (node_id: 8554) is a chemical compound."}
+{"instruction": "Describe this ingredient and its properties", "input": "monterey jack cheese", "output": "Monterey Jack Cheese (node_id: 5375) is a ingredient. classified as Dairy."}
+{"instruction": "Explain the taste properties of 2,5-diethyltetrahydrofuran", "input": "2,5-diethyltetrahydrofuran", "output": "2,5-Diethyltetrahydrofuran (node_id: 7988) is a chemical compound."}
+{"instruction": "What are the chemical flavor characteristics of this compound?", "input": "alpha-terpinyl acetate", "output": "Alpha-Terpinyl Acetate (node_id: 8121) is a chemical compound. with primary flavor characteristics: acid=1.00."}
+{"instruction": "What are the chemical flavor characteristics of this compound?", "input": "1-(4-{[4,5-dihydroxy-6-(hydroxymethyl)-3-[(3,4,5-trihydroxy-6-methyloxan-2-yl)oxy]oxan-2-yl]oxy}-2,6-dihydroxyphenyl)-3-(3-hydroxy-4-methoxyphenyl)propan-1-one", "output": "1-(4-{[4,5-Dihydroxy-6-(Hydroxymethyl)-3-[(3,4,5-Trihydroxy-6-Methyloxan-2-Yl)Oxy]Oxan-2-Yl]Oxy}-2,6-Dihydroxyphenyl)-3-(3-Hydroxy-4-Methoxyphenyl)Propan-1-One (node_id: 7206) is a chemical compound. with primary flavor characteristics: acid=1.00."}
+{"instruction": "Describe this ingredient and its properties", "input": "cream", "output": "Cream (node_id: 17) is a ingredient. classified as Dairy."}
+{"instruction": "Analyze the flavor profile of n-methylbenzylamine", "input": "n-methylbenzylamine", "output": "N-Methylbenzylamine (node_id: 8678) is a chemical compound."}
+{"instruction": "What are the chemical flavor characteristics of this compound?", "input": "s-methyl 2-methylbutanethioate", "output": "S-Methyl 2-Methylbutanethioate (node_id: 7993) is a chemical compound."}
+{"instruction": "What can you tell me about pecan?", "input": "pecan", "output": "Pecan (node_id: 4716) is a ingredient. classified as Nut/Seed. and is a hub ingredient (commonly used across many recipes)."}

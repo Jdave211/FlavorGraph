@@ -1,0 +1,39 @@
+# FlavorGraph AI Training Requirements for Paperspace
+
+# Core ML Framework
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# Transformers and Fine-tuning
+transformers>=4.30.0
+accelerate>=0.20.0
+peft>=0.4.0  # For LoRA/QLoRA
+bitsandbytes>=0.39.0  # For quantization
+
+# Data Processing
+datasets>=2.12.0
+pandas>=1.5.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+
+# Visualization and Monitoring
+matplotlib>=3.7.0
+seaborn>=0.12.0
+wandb>=0.15.0  # For experiment tracking
+tensorboard>=2.13.0
+
+# Utilities
+tqdm>=4.65.0
+python-dotenv>=1.0.0
+click>=8.1.0
+
+# FlavorGraph specific
+networkx>=3.1
+fuzzywuzzy>=0.18.0
+python-Levenshtein>=0.21.0
+
+# Optional: For advanced features
+gradio>=3.35.0  # For demo interface
+fastapi>=0.100.0  # For API serving
+uvicorn>=0.22.0  # ASGI server

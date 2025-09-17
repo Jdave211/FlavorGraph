@@ -1,0 +1,91 @@
+# FlavorGraph AI Model Configuration - Llama 7B with LoRA
+# Optimized for Paperspace A100 40GB
+
+model_config:
+  base_model: "meta-llama/Llama-2-7b-hf"  # or "NousResearch/Llama-2-7b-chat-hf"
+  model_type: "llama"
+  
+  # LoRA Configuration
+  use_lora: true
+  lora_r: 16
+  lora_alpha: 32
+  lora_dropout: 0.1
+  lora_target_modules: ["q_proj", "v_proj", "k_proj", "o_proj", "gate_proj", "up_proj", "down_proj"]
+  
+  # Quantization (optional for memory efficiency)
+  load_in_4bit: false
+  load_in_8bit: false
+  
+  # Custom layers for FlavorGraph
+  add_flavor_projection: true
+  flavor_embedding_dim: 30  # From compound flavor profiles
+  ingredient_embedding_dim: 300  # From FlavorGraph embeddings
+
+training_config:
+  # Data
+  train_file: "training_data/combined_training.jsonl"
+  validation_split: 0.1
+  max_seq_length: 512
+  
+  # Training hyperparameters
+  num_epochs: 3
+  batch_size: 4
+  gradient_accumulation_steps: 4  # Effective batch size = 16
+  learning_rate: 2e-4
+  weight_decay: 0.01
+  warmup_steps: 100
+  
+  # Optimization
+  optimizer: "adamw"
+  lr_scheduler: "cosine"
+  gradient_checkpointing: true
+  dataloader_num_workers: 4
+  
+  # Logging and saving
+  logging_steps: 10
+  save_steps: 500
+  eval_steps: 250
+  save_total_limit: 3
+  
+  # Mixed precision
+  fp16: true
+  bf16: false  # Use fp16 for A100
+
+output_config:
+  output_dir: "./output/llama7b_flavorgraph"
+  run_name: "llama7b_flavorgraph_lora"
+  
+  # Weights & Biases
+  use_wandb: true
+  wandb_project: "flavorgraph-ai"
+  wandb_entity: null  # Set your wandb username
+  
+  # Model saving
+  push_to_hub: false
+  hub_model_id: null
+
+hardware_config:
+  # Paperspace machine recommendations
+  machine_type: "A100-40GB"  # or "A100-80GB" for larger models
+  
+  # CUDA settings
+  cuda_visible_devices: "0"
+  
+  # Memory optimization
+  gradient_checkpointing: true
+  dataloader_pin_memory: true
+  
+evaluation_config:
+  # Evaluation metrics
+  compute_metrics: true
+  
+  # Custom FlavorGraph evaluation
+  evaluate_ingredient_similarity: true
+  evaluate_substitution_quality: true
+  evaluate_flavor_understanding: true
+  
+  # Generation parameters for evaluation
+  max_new_tokens: 256
+  temperature: 0.7
+  top_p: 0.9
+  do_sample: true
