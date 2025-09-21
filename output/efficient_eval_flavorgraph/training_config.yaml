@@ -1,0 +1,52 @@
+evaluation_config:
+  compute_metrics: true
+  do_sample: true
+  max_new_tokens: 64
+  prediction_loss_only: true
+  temperature: 0.7
+  top_p: 0.9
+hardware_config:
+  cuda_visible_devices: '0'
+  dataloader_pin_memory: false
+  gradient_checkpointing: false
+  machine_type: RTX4090
+model_config:
+  base_model: microsoft/DialoGPT-medium
+  load_in_4bit: false
+  load_in_8bit: false
+  lora_alpha: 16
+  lora_dropout: 0.1
+  lora_r: 8
+  lora_target_modules:
+  - c_attn
+  model_type: gpt2
+  use_lora: true
+output_config:
+  output_dir: ./output/efficient_eval_flavorgraph
+  push_to_hub: false
+  run_name: efficient_eval_flavorgraph
+  use_wandb: false
+training_config:
+  batch_size: 1
+  bf16: false
+  dataloader_num_workers: 0
+  dataloader_pin_memory: false
+  eval_accumulation_steps: 4
+  eval_steps: 200
+  fp16: false
+  gradient_accumulation_steps: 8
+  gradient_checkpointing: false
+  learning_rate: 0.0005
+  logging_steps: 10
+  lr_scheduler: linear
+  max_seq_length: 256
+  num_epochs: 1
+  optimizer: adamw_torch
+  per_device_eval_batch_size: 1
+  remove_unused_columns: true
+  save_steps: 200
+  save_total_limit: 2
+  train_file: training_data/combined_training.jsonl
+  validation_split: 0.05
+  warmup_steps: 50
+  weight_decay: 0.01
