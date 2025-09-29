@@ -1,0 +1,98 @@
+# FlavorGraph AI Model Configuration - Long Training for RunPod
+# Proper 3-6 hour training duration with overfitting prevention
+
+model_config:
+  base_model: "microsoft/DialoGPT-medium"  # Stable model for long training
+  model_type: "gpt2"
+  
+  # LoRA Configuration (conservative for stability)
+  use_lora: true
+  lora_r: 16  # Increased for better learning
+  lora_alpha: 32
+  lora_dropout: 0.1  # Reduced dropout for longer training
+  lora_target_modules: ["c_attn", "c_proj"]
+  
+  # No quantization for stability
+  load_in_4bit: false
+  load_in_8bit: false
+  
+  # Custom layers for FlavorGraph
+  add_flavor_projection: true
+  flavor_embedding_dim: 30
+  ingredient_embedding_dim: 300
+
+training_config:
+  # Data
+  train_file: "training_data/cleaned_training.jsonl"
+  validation_split: 0.2  # 20% validation for better monitoring
+  max_seq_length: 512  # Longer sequences for better learning
+  
+  # Training hyperparameters (proper duration)
+  num_epochs: 8  # 8 epochs for thorough training
+  batch_size: 2  # Small batch for stability
+  gradient_accumulation_steps: 8  # Effective batch size = 16
+  learning_rate: 1e-5  # Very conservative learning rate
+  weight_decay: 0.01
+  warmup_steps: 500  # Long warmup period
+  
+  # Optimization
+  optimizer: "adamw"
+  lr_scheduler: "cosine"  # Cosine annealing for better convergence
+  gradient_checkpointing: true
+  dataloader_num_workers: 2
+  
+  # Early stopping (more patience for long training)
+  early_stopping_patience: 5
+  early_stopping_threshold: 0.005
+  
+  # Logging and saving
+  logging_steps: 100
+  save_steps: 1000
+  eval_steps: 500  # Regular evaluation
+  save_total_limit: 5  # Keep more checkpoints
+  
+  # Mixed precision
+  fp16: true
+  bf16: false
+
+output_config:
+  output_dir: "./output/runpod_long_training"
+  run_name: "runpod_flavorgraph_long"
+  
+  # Weights & Biases
+  use_wandb: true
+  wandb_project: "flavorgraph-ai"
+  wandb_entity: null
+  
+  # Model saving
+  push_to_hub: false
+  hub_model_id: null
+
+hardware_config:
+  # RunPod machine recommendations
+  machine_type: "RTX4090"  # or "A100-40GB" for longer training
+  
+  # CUDA settings
+  cuda_visible_devices: "0"
+  
+  # Memory optimization
+  gradient_checkpointing: true
+  dataloader_pin_memory: true
+  max_memory_MB: 20000
+
+evaluation_config:
+  # Evaluation metrics
+  compute_metrics: true
+  
+  # Custom FlavorGraph evaluation
+  evaluate_ingredient_similarity: true
+  evaluate_substitution_quality: true
+  evaluate_flavor_understanding: true
+  
+  # Generation parameters (conservative)
+  max_new_tokens: 200
+  temperature: 0.7
+  top_p: 0.9
+  top_k: 50
+  do_sample: true
+  repetition_penalty: 1.2  # Higher penalty for longer training

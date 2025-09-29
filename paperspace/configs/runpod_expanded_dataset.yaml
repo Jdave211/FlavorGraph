@@ -1,0 +1,98 @@
+# FlavorGraph AI Model Configuration - Expanded Dataset
+# Optimized for 11,500+ high-quality training examples
+
+model_config:
+  base_model: "microsoft/DialoGPT-medium"  # Stable model
+  model_type: "gpt2"
+  
+  # LoRA Configuration (optimized for larger dataset)
+  use_lora: true
+  lora_r: 32  # Increased for better learning capacity
+  lora_alpha: 64
+  lora_dropout: 0.05  # Reduced dropout for better learning
+  lora_target_modules: ["c_attn", "c_proj"]
+  
+  # No quantization for stability
+  load_in_4bit: false
+  load_in_8bit: false
+  
+  # Custom layers for FlavorGraph
+  add_flavor_projection: true
+  flavor_embedding_dim: 30
+  ingredient_embedding_dim: 300
+
+training_config:
+  # Data
+  train_file: "training_data/expanded_training.jsonl"
+  validation_split: 0.15  # 15% validation
+  max_seq_length: 256  # Appropriate for expanded data
+  
+  # Training hyperparameters (optimized for larger dataset)
+  num_epochs: 4  # Reasonable epochs for 33K examples
+  batch_size: 4  # Smaller batch for stability
+  gradient_accumulation_steps: 4  # Effective batch size = 16
+  learning_rate: 2e-5  # Conservative LR for quality
+  weight_decay: 0.01
+  warmup_steps: 500  # Longer warmup for large dataset
+  
+  # Optimization
+  optimizer: "adamw"
+  lr_scheduler: "cosine"  # Cosine annealing
+  gradient_checkpointing: true
+  dataloader_num_workers: 4
+  
+  # Early stopping (more patience for larger dataset)
+  early_stopping_patience: 4
+  early_stopping_threshold: 0.01
+  
+  # Logging and saving
+  logging_steps: 50
+  save_steps: 1000
+  eval_steps: 500
+  save_total_limit: 3
+  
+  # Mixed precision
+  fp16: true
+  bf16: false
+
+output_config:
+  output_dir: "./output/runpod_expanded_dataset"
+  run_name: "runpod_flavorgraph_expanded"
+  
+  # Weights & Biases
+  use_wandb: true
+  wandb_project: "flavorgraph-ai"
+  wandb_entity: null
+  
+  # Model saving
+  push_to_hub: false
+  hub_model_id: null
+
+hardware_config:
+  # RunPod machine recommendations
+  machine_type: "RTX4090"  # or "A100-40GB"
+  
+  # CUDA settings
+  cuda_visible_devices: "0"
+  
+  # Memory optimization
+  gradient_checkpointing: true
+  dataloader_pin_memory: true
+  max_memory_MB: 20000
+
+evaluation_config:
+  # Evaluation metrics
+  compute_metrics: true
+  
+  # Custom FlavorGraph evaluation
+  evaluate_ingredient_similarity: true
+  evaluate_substitution_quality: true
+  evaluate_flavor_understanding: true
+  
+  # Generation parameters
+  max_new_tokens: 150
+  temperature: 0.7
+  top_p: 0.9
+  top_k: 50
+  do_sample: true
+  repetition_penalty: 1.1

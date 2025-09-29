@@ -1,0 +1,98 @@
+# FlavorGraph AI Model Configuration - Optimized for RunPod
+# Prevents overfitting and repetitive outputs
+
+model_config:
+  base_model: "microsoft/DialoGPT-medium"  # Smaller, more stable model
+  model_type: "gpt2"
+  
+  # LoRA Configuration (conservative settings)
+  use_lora: true
+  lora_r: 8  # Reduced from 16
+  lora_alpha: 16  # Reduced from 32
+  lora_dropout: 0.2  # Increased dropout
+  lora_target_modules: ["c_attn", "c_proj"]
+  
+  # No quantization for stability
+  load_in_4bit: false
+  load_in_8bit: false
+  
+  # Custom layers for FlavorGraph
+  add_flavor_projection: true
+  flavor_embedding_dim: 30
+  ingredient_embedding_dim: 300
+
+training_config:
+  # Data
+  train_file: "training_data/combined_training.jsonl"
+  validation_split: 0.15  # Increased validation split
+  max_seq_length: 256  # Reduced sequence length
+  
+  # Training hyperparameters (proper duration)
+  num_epochs: 5  # Proper number of epochs
+  batch_size: 4  # Smaller batch for stability
+  gradient_accumulation_steps: 4  # Effective batch size = 16
+  learning_rate: 2e-5  # Conservative but not too low
+  weight_decay: 0.01  # Moderate weight decay
+  warmup_steps: 200  # Proper warmup
+  
+  # Optimization
+  optimizer: "adamw"
+  lr_scheduler: "linear"  # Linear decay instead of cosine
+  gradient_checkpointing: true
+  dataloader_num_workers: 2
+  
+  # Early stopping
+  early_stopping_patience: 3
+  early_stopping_threshold: 0.01
+  
+  # Logging and saving
+  logging_steps: 50
+  save_steps: 500
+  eval_steps: 250  # Regular evaluation
+  save_total_limit: 3
+  
+  # Mixed precision
+  fp16: true
+  bf16: false
+
+output_config:
+  output_dir: "./output/runpod_optimized"
+  run_name: "runpod_flavorgraph_optimized"
+  
+  # Weights & Biases
+  use_wandb: true
+  wandb_project: "flavorgraph-ai"
+  wandb_entity: null
+  
+  # Model saving
+  push_to_hub: false
+  hub_model_id: null
+
+hardware_config:
+  # RunPod machine recommendations
+  machine_type: "RTX4090"  # or "A100-40GB"
+  
+  # CUDA settings
+  cuda_visible_devices: "0"
+  
+  # Memory optimization
+  gradient_checkpointing: true
+  dataloader_pin_memory: true
+  max_memory_MB: 20000
+
+evaluation_config:
+  # Evaluation metrics
+  compute_metrics: true
+  
+  # Custom FlavorGraph evaluation
+  evaluate_ingredient_similarity: true
+  evaluate_substitution_quality: true
+  evaluate_flavor_understanding: true
+  
+  # Generation parameters (conservative)
+  max_new_tokens: 128  # Reduced from 256
+  temperature: 0.8  # Increased temperature
+  top_p: 0.9
+  top_k: 50  # Added top_k sampling
+  do_sample: true
+  repetition_penalty: 1.1  # Prevent repetition
