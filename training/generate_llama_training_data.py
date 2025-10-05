@@ -19,7 +19,15 @@ import numpy as np
 
 
 class FlavorGraphDataGenerator:
-    def __init__(self, base_dir: str = "/Users/davejaga/Desktop/Startups/FlavorGraph"):
+    def __init__(self, base_dir: str = None):
+        # Auto-detect base directory
+        if base_dir is None:
+            # Try to find FlavorGraph directory
+            current = Path(__file__).parent.parent.resolve()
+            if current.name == "FlavorGraph":
+                base_dir = str(current)
+            else:
+                base_dir = str(Path.cwd())
         self.base_dir = Path(base_dir)
         self.input_dir = self.base_dir / "input"
         self.output_dir = self.base_dir / "training" / "data"
