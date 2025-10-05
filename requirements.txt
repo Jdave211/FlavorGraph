@@ -1,0 +1,20 @@
+# FlavorGraph Core Requirements
+# For original FlavorGraph2Vec training
+torch>=1.0.0
+numpy>=1.16.0
+networkx>=2.3
+scikit-learn>=0.21.0
+tqdm>=4.32.0
+matplotlib>=3.1.0
+seaborn>=0.9.0
+pandas>=0.24.0
+
+# For LLaMA fine-tuning (optional, see training/requirements.txt for complete list)
+# Uncomment if you want to install everything at once:
+# transformers>=4.36.0
+# datasets>=2.14.0
+# accelerate>=0.25.0
+# peft>=0.7.0
+# bitsandbytes>=0.41.0
+# pyyaml>=6.0
+# wandb>=0.16.0

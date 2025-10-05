@@ -1,0 +1,107 @@
+# FlavorGraph LLaMA Fine-tuning Configuration
+# This config is optimized for training on cloud GPUs (A100/H100)
+
+# Model Configuration
+model_config:
+  base_model: "meta-llama/Llama-2-7b-hf"  # or "meta-llama/Llama-3-8b" for Llama 3
+  # Alternative models:
+  # - "meta-llama/Llama-2-13b-hf" (requires more GPU memory)
+  # - "meta-llama/Llama-3-8b" (newer architecture)
+  # - "mistralai/Mistral-7B-v0.1" (alternative base model)
+
+  # LoRA Configuration (Parameter-efficient fine-tuning)
+  use_lora: true
+  lora_r: 16  # LoRA rank (higher = more parameters, better quality, slower)
+  lora_alpha: 32  # LoRA alpha scaling
+  lora_dropout: 0.1
+  lora_target_modules:
+    - q_proj
+    - v_proj
+    - k_proj
+    - o_proj
+    - gate_proj
+    - up_proj
+    - down_proj
+
+  # Quantization (for memory efficiency)
+  load_in_4bit: true  # Use 4-bit quantization (QLoRA)
+  load_in_8bit: false  # Alternative: 8-bit (use one or the other, not both)
+  bnb_4bit_quant_type: "nf4"  # "nf4" or "fp4"
+  bnb_4bit_use_double_quant: true
+  bnb_4bit_compute_dtype: "float16"
+
+# Training Configuration
+training_config:
+  # Data
+  train_file: "training/data/flavorgraph_training_data.jsonl"
+  validation_split: 0.1  # 10% for validation
+  max_seq_length: 512  # Maximum sequence length (can increase to 1024 or 2048 if needed)
+
+  # Training hyperparameters
+  num_epochs: 3  # Number of training epochs
+  batch_size: 4  # Per-device batch size (reduce if OOM)
+  gradient_accumulation_steps: 4  # Effective batch size = batch_size * gradient_accumulation_steps * num_gpus
+  learning_rate: 2.0e-4  # Learning rate for LoRA
+  weight_decay: 0.01
+  warmup_steps: 100
+  lr_scheduler: "cosine"  # "linear", "cosine", "cosine_with_restarts", "polynomial"
+
+  # Optimization
+  gradient_checkpointing: true  # Saves memory at cost of speed
+  fp16: false  # Use FP16 mixed precision (for older GPUs)
+  bf16: true  # Use BF16 mixed precision (better for A100/H100)
+
+  # Logging and checkpointing
+  logging_steps: 10  # Log every N steps
+  save_steps: 250  # Save checkpoint every N steps
+  eval_steps: 250  # Evaluate every N steps
+  save_total_limit: 3  # Keep only last N checkpoints
+
+  # Data loading
+  dataloader_num_workers: 4
+  dataloader_pin_memory: true
+
+# Hardware Configuration
+hardware_config:
+  # GPU settings
+  num_gpus: 1  # Number of GPUs to use
+  gpu_memory_limit: null  # null for auto, or specify in GB
+  dataloader_pin_memory: true
+
+  # Distributed training (for multi-GPU)
+  distributed: false
+  deepspeed_config: null  # Path to DeepSpeed config if using
+
+# Output Configuration
+output_config:
+  output_dir: "training/output/flavorgraph_llama_v1"
+  run_name: "flavorgraph-llama-v1"
+
+  # Weights & Biases logging
+  use_wandb: true
+  wandb_project: "flavorgraph-llama"
+  wandb_entity: null  # Your W&B username/team
+
+  # Model hub
+  push_to_hub: false
+  hub_model_id: null  # "yourusername/flavorgraph-llama-7b"
+  hub_token: null  # HuggingFace token
+
+# Evaluation Configuration
+evaluation_config:
+  # Tasks to evaluate
+  tasks:
+    - "ingredient_pairing"
+    - "flavor_profile"
+    - "recipe_analysis"
+    - "substitution"
+
+  # Test set
+  test_file: null  # Path to test set, if separate
+  num_test_samples: 100
+
+# Data Augmentation (optional)
+augmentation_config:
+  enabled: false
+  synonym_replacement: false
+  back_translation: false
