@@ -40,45 +40,79 @@ def create_ingredient_knowledge_examples(nodes_df, embeddings, num_examples=5000
     """Create detailed ingredient knowledge examples"""
     import pandas as pd
     examples = []
-    
+
     if nodes_df is None:
         return examples
-    
+
+    # Filter ingredients - exclude malformed names
+    valid_ingredients = nodes_df[
+        (nodes_df['node_type'] == 'ingredient') &
+        (~nodes_df['cleaned_name'].str.endswith('_with', na=False)) &
+        (~nodes_df['cleaned_name'].str.contains('__', na=False))
+    ].copy()
+
     # Sample ingredients
-    ingredients = nodes_df[nodes_df['node_type'] == 'ingredient'].sample(min(num_examples, len(nodes_df)), random_state=42)
-    
+    ingredients = valid_ingredients.sample(min(num_examples, len(valid_ingredients)), random_state=42)
+
+    # Category descriptions for more specific outputs
+    category_descriptions = {
+        'Spice': 'aromatic spice that adds warmth and complexity',
+        'Plant/Vegetable': 'fresh vegetable that provides texture and nutrients',
+        'Fruit': 'fruit that brings natural sweetness and acidity',
+        'Meat/Animal Product': 'protein source that provides savory richness',
+        'Seafood': 'seafood ingredient that offers delicate, umami-rich flavors',
+        'Dairy': 'dairy product that adds creaminess and richness',
+        'Cereal/Crop/Bean': 'staple ingredient that provides substance and nutrition',
+        'Nut/Seed': 'nut or seed that contributes crunch and healthy fats',
+        'Sauce/Powder/Dressing': 'seasoning that enhances and ties together flavors',
+        'Beverage': 'beverage ingredient used in cooking and drinking',
+        'Essential Oil/Fat': 'fat or oil that carries flavors and adds richness',
+        'Bakery/Dessert/Snack': 'baked good or treat',
+        'Fungus': 'mushroom or fungus that provides earthy, umami notes',
+        'Flower': 'edible flower that adds delicate flavors and visual appeal'
+    }
+
     for _, row in ingredients.iterrows():
         name = row['cleaned_name']
+
+        # Skip if name is NaN or invalid
+        if pd.isna(name) or not isinstance(name, str):
+            continue
+
         category = row.get('category', 'Unknown')
         if pd.isna(category):
             category = 'Unknown'
         node_id = row['node_id']
-        
-        # Create multiple instruction variations
-        instructions = [
-            f"Describe the culinary properties of {name}",
-            f"What makes {name} unique in cooking?",
-            f"How is {name} typically used in recipes?",
-            f"What are the key characteristics of {name}?",
-            f"Explain the role of {name} in food preparation"
+
+        # Get category description
+        category_desc = category_descriptions.get(category, 'ingredient')
+        display_name = name.replace('_', ' ')
+
+        # Create multiple instruction variations with specific outputs
+        examples_data = [
+            (f"Describe the culinary properties of {display_name}",
+             f"{display_name.title()} is a {category_desc}. It's commonly used in various cuisines and adds depth to dishes through its unique flavor characteristics."),
+
+            (f"What makes {display_name} unique in cooking?",
+             f"As a {category}, {display_name} enhances dishes with its distinctive properties. Its versatility makes it valuable in many cooking traditions."),
+
+            (f"How is {display_name} typically used in recipes?",
+             f"{display_name.title()} is a {category_desc} prized for its ability to complement other ingredients and contribute both flavor and nutritional value."),
+
+            (f"What are the key characteristics of {display_name}?",
+             f"This {category_desc} is valued for adding complexity and depth to dishes, making it an essential component in many culinary applications."),
+
+            (f"Explain the role of {display_name} in food preparation",
+             f"{display_name.title()} functions as a {category_desc}, bringing distinctive qualities that can elevate both simple and complex dishes.")
         ]
-        
-        # Create detailed, varied outputs
-        outputs = [
-            f"{name} is a {category.lower()} ingredient known for its distinctive flavor profile. It's commonly used in various cuisines and adds depth to dishes through its unique taste characteristics.",
-            f"In culinary applications, {name} serves as a {category.lower()} that enhances the overall flavor profile of dishes. Its versatility makes it a staple in many cooking traditions.",
-            f"{name} brings distinctive {category.lower()} qualities to recipes, offering both flavor enhancement and nutritional benefits. It's prized for its ability to complement other ingredients.",
-            f"As a {category.lower()}, {name} is valued for its ability to add complexity and depth to dishes. Its unique properties make it an essential component in many culinary traditions.",
-            f"{name} is celebrated in cooking for its {category.lower()} characteristics that can transform simple dishes into complex, flavorful experiences."
-        ]
-        
-        for instruction, output in zip(instructions, outputs):
+
+        for instruction, output in examples_data:
             examples.append({
                 "instruction": instruction,
                 "input": name,
                 "output": output
             })
-    
+
     return examples
 
 def create_flavor_analysis_examples(compound_df, num_examples=3000):
