@@ -33,7 +33,7 @@ class FlavorGraphDataGenerator:
         self.output_dir = self.base_dir / "training" / "data"
         self.output_dir.mkdir(parents=True, exist_ok=True)
 
-        # Data structures
+        # Data structure(s)
         self.nodes = {}  # node_id -> node info
         self.edges = []  # list of edges
         self.recipes = []  # recipe data
